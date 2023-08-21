@@ -8,12 +8,14 @@ body {
 }
 .navbar-container{
     padding: 10px 10%;
+    background: #008080;
   }
   nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
   
   }
   
@@ -28,7 +30,7 @@ body {
   }
   
   nav ul li a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -108,7 +110,7 @@ body {
   h1{
 font-size: 55px;
 font-family: "Bricolage Grotesque", sans-serif;
-font-weight: 700;
+font-weight: 500;
   }
 
   p{
@@ -557,7 +559,7 @@ article {
   font-weight: bold;
   line-height: 1.25;
   border-radius: 0.25rem;
-  font-weight: 800;
+  font-weight: 600;
   font-family: sans-serif;
 }
 
@@ -580,7 +582,9 @@ article:nth-of-type(3) {
 }
 
 // ========================2nd Description===============
-
+.parent-container-second{
+  margin-top: 6%;
+}
 
 .second-mentorship-section {
   display: flex;
@@ -1067,7 +1071,7 @@ gap: 20px;
 
 //   ================================Footer section=============================
 .footer{
-    margin-top: 50%;
+    margin-top: 10%;
   }
   .footer-container{
       max-width: 1170px;
