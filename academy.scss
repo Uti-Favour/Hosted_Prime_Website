@@ -263,6 +263,164 @@ font-weight: 400;
 
 
 
+// ====================================Why Prime Academy==============================================
+.why_prime_mentorship_main_container {
+  width: 90%; /* Set your desired width */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Add padding to create space */
+  display: none;
+}
+
+.why_prime_mentorship_content {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.mentorship_image {
+  flex: 1;
+  
+  .academy_image {
+    width: 100%; /* Image takes full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    object-fit: cover; /* Cover to maintain aspect ratio and fill container */
+  }
+}
+
+.text_container {
+  flex: 1;
+
+  .h2_header {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    margin-top: 25px;
+
+    h2 {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 45px;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; /* Add space between list items */
+      i {
+        margin-right: 10px;
+      }
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 25px;
+      font-size: 15px;
+    }
+  }
+
+  .free {
+    color: #254d97;
+    font-style: italic;
+  }
+  .buttons-container {
+    display: flex;
+    margin-top: 20px; // Adjust as needed
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .button-1 {
+    padding: 10px 15px;
+    background-color: #254d97;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .button-2 {
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+  }
+}
+
+/* Media Query for Tablet and Larger Screens */
+@media screen and (max-width: 768px) {
+  .why_prime_mentorship_main_container {
+    flex-direction: column; /* Revert to row layout */
+    width: 100%;
+    display: block;
+    margin-top: 0;
+  }
+
+  .mentorship_video {
+    max-width: 100%; /* Adjust as needed */
+    margin-right: 20px; /* Create space between video and text */
+    width: 100%;
+  }
+}
+.why_prime_mentorship_content {
+  /* Existing styles... */
+  flex-direction: column; /* Switch to column layout for mobile */
+  display: block;
+}
+
+.mentorship_video {
+  /* Existing styles... */
+  max-width: 100%; /* Take full width on mobile */
+  margin-right: 0; /* No margin on mobile */
+  video {
+    /* Existing styles... */
+    height: auto; /* Allow video to adjust its height */
+    width: 100%;
+  }
+}
+
+.text_container {
+  /* Existing styles... */
+  margin-left: 0; /* No margin on mobile */
+
+  ul {
+    h2 {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+    }
+  }
+
+  .button-1 {
+    padding: 10px 100px;
+    margin-top: 20px;
+  }
+
+  .button-2 {
+    display: none;
+  }
+
+  p {
+    margin-bottom: 25px;
+  }
+  i {
+    color: #254d97;
+  }
+}
+
 //   ================================Footer section=============================
 .footer{
     margin-top: 50%;
