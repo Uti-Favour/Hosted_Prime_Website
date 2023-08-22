@@ -95,28 +95,23 @@
         Up your work game,<span class="free"> it's free!</span>
       </h2>
       <ul>
-        <h2><i class="fas fa-chalkboard-teacher"></i> No cost to join</h2>
+        <h2><i class="fas fa-chalkboard-teacher"></i> Expert Coaching</h2>
         <p>
-          Register and browse professionals, explore projects, or even book
-          a consultation.
+          Learn from industry experts and experienced freelancers who can guide you towards success.
         </p>
 
         <h2>
-          <i class="fas fa-paint-brush"></i> Post a job and hire
-          top talent
+          <i class="fas fa-paint-brush"></i> Skill Enhancemen
         </h2>
         <p>
-          Finding talent doesn’t have to be a chore. Post a job or we can
-          search for you!
+          Enhance your skills and stay updated with the latest trends in freelancing and digital work.
         </p>
 
         <h2>
-          <i class="fas fa-user-check"></i> Work with the best coaches out
-          there!
+          <i class="fas fa-user-check"></i> Networking Opportunities
         </h2>
         <p>
-          Upwork makes it affordable to up your work and take advantage of
-          low transaction rates.
+          Connect with fellow freelancers, build your network, and collaborate on exciting projects.
         </p>
       </ul>
 
@@ -127,6 +122,278 @@
     </div>
   </div>
 </div>
+
+
+
+   <!-- =====================================What's Prime=========================== -->
+
+   <div class="mentorship-section">
+    <div class="text-content">
+      <h2>
+        Welcome to Our
+        <span class="mentorship-span"> Mentorship</span> Program
+      </h2>
+      <p>
+        Our mentorship program goes beyond the ordinary to provide you with an
+        exceptional and personalized experience on your journey. We understand
+        that navigating the complexities of your chosen field can be daunting,
+        which is why we have meticulously designed this program to offer you
+        the guidance and support you need to thrive.
+      </p>
+      <div class="buttons">
+        <button class="btn" style="background: #008080">
+          Enroll Now <i class="fas fa-arrow-right fa-lg"></i>
+        </button>
+        <button class="btn" style="background: #008080">
+          Learn More <i class="fas fa-info-circle"></i>
+        </button>
+      </div>
+    </div>
+    
+    <div class="image-container">
+      <img src="Images/Mentor_img_1.jpg" alt="Mentorship Image" />
+    </div>
+  </div>
+
+  <div class="counter-box">
+    <section class="count">
+      <!-- single number -->
+      <article>
+        <div class="counter" data-value="500">0</div>
+        <p>Succeeded Projects</p>
+      </article>
+      <!-- end of single number -->
+      <!-- single number -->
+      <article>
+        <div class="counter" data-value="17140">0</div>
+        <p>Working Hours Spent</p>
+      </article>
+      <!-- end of single number -->
+      <!-- single number -->
+      <article>
+        <div class="counter" data-value="1500">0</div>
+        <p>Happy Clients</p>
+      </article>
+      <!-- end of single number -->
+    </section>
+  </div>
+  </div>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const counters = [...document.querySelectorAll('.counter')];
+  
+    const updateCount = (el) => {
+      const value = parseInt(el.dataset.value);
+      const increment = Math.ceil(value / 1000);
+      let initialValue = 0;
+  
+      const increaseCount = setInterval(() => {
+        initialValue += increment;
+  
+        if (initialValue > value) {
+          el.textContent = `${value}+`;
+          clearInterval(increaseCount);
+          return;
+        }
+  
+        el.textContent = `${initialValue}+`;
+      }, 1);
+    };
+  
+    counters.forEach((counter) => {
+      updateCount(counter);
+    });
+  });
+  
+  </script>
+  
+  <!-- ======================How to get Started================== -->
+
+  <div class="row_container">
+    <h1 class="custom-header">How to Get Started</h1>
+    <div class="rows">
+      <div class="services">
+        <i class="fas fa-credit-card"></i>
+        <h2>Make your payment</h2>
+        <p>
+          Securely complete your transaction by making a payment using various
+          available methods, ensuring a smooth start to your journey.
+        </p>
+        <a href="#" class="btn-step">Explore</a>
+      </div>
+      <div class="services">
+        <i class="fas fa-check-circle"></i>
+        <h2>Confirm registration</h2>
+        <p>
+          Verify and confirm your registration to solidify your participation,
+          ensuring that you're officially enrolled and ready to proceed.
+        </p>
+        <a href="#" class="btn-step">Explore</a>
+      </div>
+      <div class="services">
+        <i class="fas fa-user-tie"></i>
+        <h2>Account features</h2>
+        <p>
+          Receive personalized guidance and support from a dedicated mentor
+          who will help you navigate and excel in your chosen endeavor.
+        </p>
+        <a href="#" class="btn-step">Explore</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================second-mentorship-section================================= -->
+
+  <div class="parent-container-second">
+    <div class="second-mentorship-section">
+      <div class="second-image-container">
+        <img src="Images/img-2.jpg" alt="Video Thumbnail" />
+        <!-- You can replace the image with a video element if needed -->
+      </div>
+      <div class="second-text-content">
+        <h2>
+          Discover <span class="second-mentorship-span"> guidance</span> on
+          path to success
+        </h2>
+        <p>
+          In a rapidly evolving professional landscape, staying ahead requires
+          not only knowledge but also a keen understanding of industry trends,
+          emerging technologies, and changing dynamics. Our mentors, armed
+          with their extensive experience, keep themselves updated with the
+          latest developments.
+        </p>
+        <div class="buttons">
+          <button style="background: #008080">
+            Get Started <i class="fas fa-play-circle"></i>
+          </button>
+          <button style="background: #008080">
+            Contact Us <i class="fas fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================================Prime Pricing=============================== -->
+  <div class="pricing-parent-container">
+    <div class="pricing_container">
+      <h1>Choose <span class="italic">your</span> plan</h1>
+      <div class="price-row">
+        <div class="price-col">
+          <p class="price_class">Begginers <i class="fas fa-rocket"></i></p>
+          <h3>19$ <span class="month-span">/ month</span></h3>
+          <p class="description">
+            Launch your journey with essential features to get started.
+          </p>
+          <ul>
+            <li><i class="fas fa-check-circle green"></i> 1 Website</li>
+            <li>
+              <i class="fas fa-check-circle green"></i> 10 GB Disk Space
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> Freee Email Address
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> Basic wesite Builder
+            </li>
+            <li class="line_through">
+              <i class="fas fa-times-circle red"></i> No SSL Certificate
+            </li>
+            <li class="line_through">
+              <i class="fas fa-times-circle red"></i> Limited Support
+            </li>
+          </ul>
+          <a class="get-course"
+            >Get this course
+            <i
+              class="fas fa-arrow-right"
+              style="
+                transform: rotate(-30deg);
+                margin-left: 8px;
+                color: #008080;
+              "
+            ></i
+          ></a>
+        </div>
+
+        <div class="price-col">
+          <p class="price_class">Advanced <i class="fas fa-cogs"></i></p>
+          <h3>50$ <span class="month-span">/ month</span></h3>
+          <p class="description">
+            Unlock advanced capabilities for greater control and
+            customization.
+          </p>
+          <ul>
+            <li><i class="fas fa-check-circle green"></i> 1 Website</li>
+            <li>
+              <i class="fas fa-check-circle green"></i> 10 GB Disk Space
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> Freee Email Address
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> Basic wesite Builder
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> No SSL Certificate
+            </li>
+            <li class="line_through">
+              <i class="fas fa-times-circle red"></i> Limited Support
+            </li>
+          </ul>
+          <a class="get-course"
+            >Get this course
+            <i
+              class="fas fa-arrow-right"
+              style="
+                transform: rotate(-30deg);
+                margin-left: 8px;
+                color: #008080;
+              "
+            ></i
+          ></a>
+        </div>
+
+        <div class="price-col">
+          <p class="price_class">Premium <i class="fas fa-gem"></i></p>
+          <h3>150$ <span class="month-span">/ month</span></h3>
+          <p class="description">
+            Experience the ultimate level of service with premium features and
+            benefits.
+          </p>
+          <ul>
+            <li><i class="fas fa-check-circle green"></i> 1 Website</li>
+            <li>
+              <i class="fas fa-check-circle green"></i> 10 GB Disk Space
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> Freee Email Address
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> Basic wesite Builder
+            </li>
+            <li>
+              <i class="fas fa-check-circle green"></i> No SSL Certificate
+            </li>
+            <li><i class="fas fa-check-circle green"></i> Limited Support</li>
+          </ul>
+          <a class="get-course"
+            >Get this course
+            <i
+              class="fas fa-arrow-right"
+              style="
+                transform: rotate(-30deg);
+                margin-left: 8px;
+                color: #008080;
+              "
+            ></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 <!-- ==================================Footer Section============================= -->
 <footer class="footer">
