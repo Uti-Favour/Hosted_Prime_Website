@@ -54,7 +54,9 @@ body {
   
   nav .fas{
     display: none;
+    color: #fff;
   }
+ 
   
   @media only  screen and (max-width:600px) {
     nav .fas{
@@ -147,7 +149,7 @@ font-weight: 400;
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .social-icons li a {
@@ -170,7 +172,8 @@ font-weight: 400;
   height: 40px;
   transform: translateY(-80px) translateX(-50%);
   rotate: 45deg;
- top: 95%;
+ top: 105%;
+
 
   span{
     position: absolute;
@@ -249,11 +252,11 @@ font-weight: 400;
   }
 
   .scrolldown {
-    display: block;
+    display: none;
   }
 
   .social-icons{
-    margin-top: 50px;
+    margin-top: 90px;
     gap: 30px;
   }
 }
